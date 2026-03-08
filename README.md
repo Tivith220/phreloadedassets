@@ -1,4 +1,4 @@
-# 🤖 PH ENERGON HORIZON (v2.0.0)
+# 🤖 PH RELOADED (v2.0.0)
 
 > **"Autobots, Ready to Roll... The Clock is Ticking."**
 
@@ -16,9 +16,10 @@ A minimalist, high-tech Transformers-themed battery monitor that lives on the ed
 ## 🕷️ Installation
 
 1.  Check the `dist` folder for the latest build.
-2.  Download `PH Energon Horizon Setup 2.0.0.exe`.
+2.  Download `PH Reloaded 2.0.0.exe`.
 3.  Run the installer. The "Horizon" will appear at the top of your screen.
 
 ---
 *Created by TIVITH*
-*Transformers is a trademark of Hasbro/Takara Tomy. This is a fan-tribute project.*
+
+
