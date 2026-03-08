@@ -1,0 +1,50 @@
+{
+  "name": "ph-reloaded-v2",
+  "version": "2.0.0",
+  "description": "PH Reloaded: Transformers Energon Horizon",
+  "main": "main.js",
+  "author": "Tivith B",
+  "scripts": {
+    "start": "electron .",
+    "convert-icon": "electron convert_icon.js",
+    "build": "electron-builder --win"
+  },
+  "dependencies": {
+    "electron-updater": "^5.3.0",
+    "systeminformation": "^5.17.0"
+  },
+  "devDependencies": {
+    "electron": "^22.3.27",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.phreloaded.v2.energon",
+    "productName": "PH Energon Horizon",
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "tivith b",
+        "repo": "battery-monitor"
+      }
+    ],
+    "win": {
+      "icon": "icon.png",
+      "target": [
+        "nsis"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "PH Reloaded",
+      "installerHeader": "build/installer_header.png",
+      "installerSidebar": "build/installer_sidebar.png",
+      "uninstallerSidebar": "build/installer_sidebar.png"
+    },
+    "directories": {
+      "output": "dist"
+    }
+  }
+}
